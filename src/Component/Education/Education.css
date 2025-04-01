@@ -1,0 +1,7 @@
+.education {
+    border: 2px solid yellow;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-items: center;
+}
