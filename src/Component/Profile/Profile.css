@@ -13,8 +13,8 @@
 #profileImage {
     display: block;
     margin: 0 auto 20px;
-    width: max(80px, 10%);
-    height: max(80px, 10%);
+    width: max(80px, 8%);
+    height: max(80px, 8%);
     clip-path: circle(50% at 50% 50%);
     transition: transform 0.3s ease; /* Smooth transition */
 }
