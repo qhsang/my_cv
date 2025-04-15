@@ -27,11 +27,11 @@ const Profile: React.FC = () => {
                 </span>
                 <span id="copyable" onClick={(e) => copyToClipboard(profileData.email, e)}>
                     <FontAwesomeIcon icon={faEnvelope} /> Email: {profileData.email}
-                    <FontAwesomeIcon icon={faCopy} id="copy-icon" />
+                    {/*<FontAwesomeIcon icon={faCopy} id="copy-icon" />*/}
                 </span>
                 <span id="copyable" onClick={(e) => copyToClipboard(profileData.phone, e)}>
                     <FontAwesomeIcon icon={faPhone} /> Phone: {profileData.phone}
-                    <FontAwesomeIcon icon={faCopy} id="copy-icon" />
+                    {/*<FontAwesomeIcon icon={faCopy} id="copy-icon" />*/}
                 </span>
             </div>
             {tooltip.visible && <div id="tooltip" style={{ left: tooltip.x, top: tooltip.y }}>{tooltip.text}</div>}

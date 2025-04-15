@@ -1,7 +1,69 @@
 .experience {
     border: 2px solid green;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
-    justify-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.experience h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.stage {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.game-links li, .skills li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.game-links li span {
+    font-weight: bold;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
 }

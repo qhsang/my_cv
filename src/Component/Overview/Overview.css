@@ -1,7 +1,20 @@
 .overview {
-    border: 2px solid blue;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    justify-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 100%;
+    margin: 5px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.overview h2 {
+    font-size: 2em;
+    color: #000000;
+    text-align: start;
+}
+
+.overview p {
+    font-size: 1.1em;
+    color: #000000;
+    line-height: 1.6;
+    text-align: start;
 }
