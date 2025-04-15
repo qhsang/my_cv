@@ -5,9 +5,11 @@ const Education: React.FC = () => {
     return (
         <section className="education">
             <h2>Education</h2>
-            <ul>
-                <li>B.Sc. in Computer Science</li>
-            </ul>
+            <div className="education-item">
+                <p>Mechatronics Engineer</p>
+                <p className="university">Ho Chi Minh City University of Technology and Education</p>
+                <p className="duration">2018 - 2022</p>
+            </div>
         </section>
     );
 };

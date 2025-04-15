@@ -1,7 +1,45 @@
 .education {
-    border: 2px solid yellow;
-    width: 100%;
-    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 20px;
     box-sizing: border-box;
-    justify-items: center;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.education h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid #4CAF50;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.university {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.duration {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
 }
