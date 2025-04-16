@@ -8,10 +8,10 @@ import Profile from "./Component/Profile/Profile";
 const App: React.FC = () => {
     return (
         <div className="App">
-            <Information />
-            <Profile />
-            <Experience />
-            <Education />
+            <Information/>
+            <Profile/>
+            <Experience/>
+            <Education/>
         </div>
     );
 };
