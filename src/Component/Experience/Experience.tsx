@@ -1,5 +1,6 @@
 import React from 'react';
 import './Experience.css';
+import {ProjectsData} from "./ExperienceData";
 
 const Experience: React.FC = () => {
     return (
@@ -16,23 +17,18 @@ const Experience: React.FC = () => {
                     <ul className="game-links">
                         <li>
                             <span>Game 1:</span>
-                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a> |
-                            <a href="#" target="_blank" rel="noopener noreferrer">YouTube</a>
+                            <a href={ProjectsData.linkGit1} target="_blank" rel="noopener noreferrer">GitHub</a> |
+                            <a href={ProjectsData.linkYoutube1} target="_blank" rel="noopener noreferrer">YouTube</a>
                         </li>
                         <li>
                             <span>Game 2:</span>
-                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a> |
-                            <a href="#" target="_blank" rel="noopener noreferrer">YouTube</a>
+                            <a href={ProjectsData.linkGit2} target="_blank" rel="noopener noreferrer">GitHub</a> |
+                            <a href={ProjectsData.linkYoutube2} target="_blank" rel="noopener noreferrer">YouTube</a>
                         </li>
                         <li>
                             <span>Game 3:</span>
-                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a> |
-                            <a href="#" target="_blank" rel="noopener noreferrer">YouTube</a>
-                        </li>
-                        <li>
-                            <span>Game 4:</span>
-                            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a> |
-                            <a href="#" target="_blank" rel="noopener noreferrer">YouTube</a>
+                            <a href={ProjectsData.linkGit3} target="_blank" rel="noopener noreferrer">GitHub</a> |
+                            <a href={ProjectsData.linkYoutube3} target="_blank" rel="noopener noreferrer">YouTube</a>
                         </li>
                     </ul>
                 </div>
