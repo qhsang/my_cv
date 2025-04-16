@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Profile from "./Component/Profile/Profile";
+import Information from "./Component/Information/Information";
 import Experience from "./Component/Experience/Experience";
 import Education from "./Component/Education/Education";
-import Overview from "./Component/Overview/Overview";
+import Profile from "./Component/Profile/Profile";
 
 const App: React.FC = () => {
     return (
         <div className="App">
+            <Information />
             <Profile />
-            <Overview />
             <Experience />
             <Education />
         </div>

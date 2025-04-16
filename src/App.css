@@ -8,3 +8,9 @@
   height: 100%;
   border: 2px solid cadetblue;
 }
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+
+}

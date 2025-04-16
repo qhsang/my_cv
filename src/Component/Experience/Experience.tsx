@@ -11,7 +11,8 @@ const Experience: React.FC = () => {
                 <h3>Unity Developer</h3>
                 <div className="stage1">
                     <p className="date">5/2022 - 7/2023</p>
-                    <p>Developed several games using Unity. Each game includes a GitHub repository and a YouTube demo:</p>
+                    <p>Developed several games using Unity. Each game includes a GitHub repository and a YouTube
+                        demo:</p>
                     <ul className="game-links">
                         <li>
                             <span>Game 1:</span>
@@ -37,8 +38,6 @@ const Experience: React.FC = () => {
                 </div>
             </div>
 
-            <hr className="divider" />
-
             {/* Second Stage */}
             <div className="stage">
                 <h3>Mid Software Engineer at Senspark</h3>
@@ -54,8 +53,9 @@ const Experience: React.FC = () => {
                     </ul>
                 </div>
             </div>
+            <hr className="divider"/>
         </section>
-);
+    );
 };
 
 export default Experience;
